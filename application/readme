@@ -1,6 +1,6 @@
 Quantum Operations Simulation in Python
 
-This Python code uses NumPy to simulate basic quantum operations. It initializes quantum states, applies gates like X, H, and CNOT to specific qubits, 
+This Notebook uses NumPy to simulate basic quantum operations. It initializes quantum states, applies gates like X, H, and CNOT to specific qubits, 
 and measures runtime based on qubit count to illustrate scalability limits.
 
 Key Features:
