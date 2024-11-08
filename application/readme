@@ -1,0 +1,12 @@
+Quantum Operations Simulation in Python
+
+This Python code uses NumPy to simulate basic quantum operations. It initializes quantum states, applies gates like X, H, and CNOT to specific qubits, 
+and measures runtime based on qubit count to illustrate scalability limits.
+
+Key Features:
+State Initialization: initialize_qubits(n) sets up an n-qubit system in state |0⟩.
+Gate Application: Functions apply gates (X, H) and CNOT between qubits using the Kronecker product.
+Performance Analysis: Measures runtime for n-qubit systems, visualizing how computational load grows with system size.
+Memory Estimation: Calculates the max number of qubits feasible on a classical computer based on memory constraints.
+This project is ideal for understanding basic quantum operations, entanglement, and the limits of quantum simulations on classical hardware.
+
